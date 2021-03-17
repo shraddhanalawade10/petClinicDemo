@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1615984320312' stop='1615984335748'>
+    <name>Testing Specialties Menu</name>
+    <title>Testing Specialties Menu</title>
+    <test-cases>
+        <test-case start='1615984332218' status='passed' stop='1615984332614'>
+            <name>Verification of Home page title </name>
+            <title>Verification of Home page title </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ac1f69b5-863e-491a-98f2-81d86702093e-attachment.png' type='image/png' size='99530'/>
+            </attachments>
+        </test-case>
+        <test-case start='1615984332614' status='passed' stop='1615984333588'>
+            <name>Click on Specialist menu and verification of Specialist page title</name>
+            <title>Click on Specialist menu and verification of Specialist page title</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='12835832-6266-4128-9560-2ddf69b81bff-attachment.png' type='image/png' size='56592'/>
+            </attachments>
+        </test-case>
+        <test-case start='1615984333588' status='passed' stop='1615984334123'>
+            <name>Verification of all buttons</name>
+            <title>Verification of all buttons</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0b249454-8ba4-41df-9de7-98fdd38cf651-attachment.png' type='image/png' size='56592'/>
+            </attachments>
+        </test-case>
+        <test-case start='1615984334123' status='passed' stop='1615984334588'>
+            <name>Click on Add button</name>
+            <title>Click on Add button</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='71bb0064-b166-43b7-8e48-9f1eff407c03-attachment.png' type='image/png' size='51274'/>
+            </attachments>
+        </test-case>
+        <test-case start='1615984334588' status='passed' stop='1615984335091'>
+            <name>Enter Specialist name</name>
+            <title>Enter Specialist name</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='36376194-3ba3-4a3c-b638-894230792a56-attachment.png' type='image/png' size='54192'/>
+            </attachments>
+        </test-case>
+        <test-case start='1615984335091' status='passed' stop='1615984335748'>
+            <name>Verify is save button enabled or not</name>
+            <title>Verify is save button enabled or not</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='12d68b87-0ba8-4e0f-9b25-5026aad47242-attachment.png' type='image/png' size='53294'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

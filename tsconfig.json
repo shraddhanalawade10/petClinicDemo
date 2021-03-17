@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": [
+      "es2015",
+      "es2017",
+      "dom",
+      "scripthost"
+    ],
+    "moduleResolution": "node",
+    "inlineSourceMap": true,
+    "declaration": false,
+    "noImplicitAny": false,
+    "outDir": "outputjs",
+  },
+  "exclude": [
+    "node_modules",
+    "asyncAwait",
+    "plugins.ts"
+  ]
+}
