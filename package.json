@@ -1,0 +1,34 @@
+{
+  "name": "practice123",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "tsc",
+    "test": "protractor outputjs/conf.js",
+    "protractor": "./node_modules/protractor/built/cli.js",
+    "prestart": "./node_modules/.bin/webdriver-manager update",
+    "start": "./node_modules/.bin/webdriver-manager start",
+    "Webdriver_update": "./node_modules/.bin/webdriver-manager update",
+    "clean": "./node_modules/.bin/webdriver-manager clean"
+  },
+  "author": "Shraddha Nalawade",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jasmine": "^2.8.8"
+  },
+  "devDependencies": {
+    "@types/cucumber": "6.0.1",
+    "@types/node": "14.6.2",
+    "chai": "4.2.0",
+    "chai-as-promised": "7.1.1",
+    "cucumber": "6.0.5",
+    "cucumber-html-reporter": "5.1.0",
+    "jasmine": "3.1.0",
+    "log4js": "3.0.1",
+    "mkdirp": "1.0.3",
+    "protractor": "~5.3.2",
+    "protractor-cucumber-framework": "6.2.1",
+    "typescript": "~2.9.2"
+  },
+  "description": ""
+}

@@ -1,0 +1,900 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Validation of Home page",
+    "line": 1,
+    "id": "validation-of-home-page",
+    "tags": [],
+    "uri": "Features\\home.feature",
+    "elements": [
+      {
+        "id": "validation-of-home-page;verify-that-user-is-able-to-navigate-to-petclinic-application-homepage",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify that User is able to navigate to Petclinic application homepage",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to Petclinic url",
+            "match": {
+              "location": "Step-definition\\home.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "User sees Welcome to Petclinic message on homepage",
+            "match": {
+              "location": "Step-definition\\home.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16547000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Verify the welcome message of PetClinic application",
+            "match": {
+              "location": "Step-definition\\home.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validation-of-home-page;verify-that-user-is-able-to-see-five-menus-on-homepage",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Verify that User is able to see Five menus on homepage",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "User is on Petclinic home page",
+            "match": {
+              "location": "Step-definition\\home.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 200000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "User sees five menus should be displayed as Home Owners Veterinarians Pet Types and Specialties",
+            "match": {
+              "location": "Step-definition\\home.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 246000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Validation of Owners page",
+    "line": 1,
+    "id": "validation-of-owners-page",
+    "tags": [],
+    "uri": "Features\\owners.feature",
+    "elements": [
+      {
+        "id": "validation-of-owners-page;all-dropdown-menu",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "All dropdown menu",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to Petclinic home page",
+            "match": {
+              "location": "Step-definition\\owners.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User clicks on Owners tab and selects ALL dropdown menu",
+            "match": {
+              "location": "Step-definition\\owners.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5458000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User should be navigated to Owners page where he can see the list of owners",
+            "match": {
+              "location": "Step-definition\\owners.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1429000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validation-of-owners-page;add-owners",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Add owners",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "User navigates to Petclinic welcome page",
+            "match": {
+              "location": "Step-definition\\owners.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User clicks on Owners tab and selects Add New dropdown menu",
+            "match": {
+              "location": "Step-definition\\owners.ts:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2479000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User enter owners details \"Pooja1\" \"Pawar\" \"10 street\" \"Mumbai\" \"9874510445\" and click on Add Owner button to add new owner",
+            "match": {
+              "location": "Step-definition\\owners.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6297000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "User should be navigated to Owners page where newly added owner should get saved",
+            "match": {
+              "location": "Step-definition\\owners.ts:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3049000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validation-of-owners-page;validation-of-back-button",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Validation of back button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "User is on Petclinic welcome page",
+            "match": {
+              "location": "Step-definition\\owners.ts:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "User clicks on Owners tab and selects Add New dropdown menu",
+            "match": {
+              "location": "Step-definition\\owners.ts:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2462000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "User clicks on back button from New Owners page",
+            "match": {
+              "location": "Step-definition\\owners.ts:80"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 251000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "User should be navigated to Owners page where he can see the list of owners",
+            "match": {
+              "location": "Step-definition\\owners.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 111000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Validation of PetType page",
+    "line": 1,
+    "id": "validation-of-pettype-page",
+    "tags": [],
+    "uri": "Features\\petTypes.feature",
+    "elements": [
+      {
+        "id": "validation-of-pettype-page;pet-type",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Pet Type",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is navigating to Home page of Pet Clinic application",
+            "match": {
+              "location": "Step-definition\\petTypes.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User clicks on Pet Type tab",
+            "match": {
+              "location": "Step-definition\\petTypes.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3480000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User should be navigated to Pet Types page where he can see the list of Pet Types and edit, delete, add and home are enabled or not",
+            "match": {
+              "location": "Step-definition\\petTypes.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 378000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validation-of-pettype-page;add-pet-types",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Add Pet Types",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "User is navigating to PetClinic home page",
+            "match": {
+              "location": "Step-definition\\petTypes.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User clicks on Pet Type tab and then clicks on Add button",
+            "match": {
+              "location": "Step-definition\\petTypes.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4049000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "User should be navigated to page where he can provide \"Rabbit\" and click on Save button",
+            "match": {
+              "location": "Step-definition\\petTypes.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2281000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "User should be directed to Pet Types page where he can see newly added Pet type",
+            "match": {
+              "location": "Step-definition\\petTypes.ts:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1693000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "validation-of-pettype-page;edit-pet-types",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Edit Pet Types",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "User is navigating to PetClinic welcome page",
+            "match": {
+              "location": "Step-definition\\petTypes.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "User clicks on Pet Type tab and then clicks on Edit button of particular PetType",
+            "match": {
+              "location": "Step-definition\\petTypes.ts:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7043000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "User shoule be navigated to Edit Pet Type page where he can edit the name of PetType as \"Fish\"",
+            "match": {
+              "location": "Step-definition\\petTypes.ts:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2440000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "User click on Update button",
+            "match": {
+              "location": "Step-definition\\petTypes.ts:76"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 119000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "User should be navigated to Pet Types page where he can see updated name of Pet Type",
+            "match": {
+              "location": "Step-definition\\petTypes.ts:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6965000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validation-of-pettype-page;delete-pet-types",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Delete Pet Types",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 30,
+            "name": "User is navigating to Welcome page of Pet Clinic application",
+            "match": {
+              "location": "Step-definition\\petTypes.ts:92"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "User clicks on Pet Type tab and then clicks on Delete button of particular pet Type",
+            "match": {
+              "location": "Step-definition\\petTypes.ts:96"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7429000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "That particular Pet Type should get deleted from the list",
+            "match": {
+              "location": "Step-definition\\petTypes.ts:103"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 132000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "validation-of-pettype-page;validation-of-home-button",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Validation of Home button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 35,
+            "name": "User is on Pet Clinic application",
+            "match": {
+              "location": "Step-definition\\petTypes.ts:111"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "User clicks on Pet Type tab and then clicks on Home button",
+            "match": {
+              "location": "Step-definition\\petTypes.ts:115"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6118000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "User should be navigated to Home page of Pet Clinic application",
+            "match": {
+              "location": "Step-definition\\petTypes.ts:122"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 94000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Validation of Veterinarian page",
+    "line": 1,
+    "id": "validation-of-veterinarian-page",
+    "tags": [],
+    "uri": "Features\\veterinarian.feature",
+    "elements": [
+      {
+        "id": "validation-of-veterinarian-page;all-dropdown-menu",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "All dropdown menu",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User directs to the Home page of Pet Clinic application",
+            "match": {
+              "location": "Step-definition\\veterinarian.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User clicks on Veterinarian tab and selects ALL dropdown menu",
+            "match": {
+              "location": "Step-definition\\veterinarian.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2314000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User should be navigated to Veterinarian page where he can see the list of Veterinarian",
+            "match": {
+              "location": "Step-definition\\veterinarian.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validation-of-veterinarian-page;add-veterinarian",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Add Veterinarian",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "User directs to the Welcome page of Pet Clinic application",
+            "match": {
+              "location": "Step-definition\\veterinarian.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User clicks on Veterinarian tab and selects Add New dropdown menu",
+            "match": {
+              "location": "Step-definition\\veterinarian.ts:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2415000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User enters Veterinarian details and clicks on Save Vet button",
+            "match": {
+              "location": "Step-definition\\veterinarian.ts:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2964000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "User should be navigated to Veterinarian page and where newly added Veterinarian should get saved",
+            "match": {
+              "location": "Step-definition\\veterinarian.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 994000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "validation-of-veterinarian-page;validation-of-back-button",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Validation of back button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "User directs to the Pet Clinic application url",
+            "match": {
+              "location": "Step-definition\\veterinarian.ts:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "User clicks on Veterinarian tab and selects Add New dropdown menu",
+            "match": {
+              "location": "Step-definition\\veterinarian.ts:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2120000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "User clicks on back button from New Veterinarian page",
+            "match": {
+              "location": "Step-definition\\veterinarian.ts:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2156000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "User should be navigated to Veterinarian page where he can see the list of Veterinarian",
+            "match": {
+              "location": "Step-definition\\veterinarian.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 82000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

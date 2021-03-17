@@ -1,0 +1,8 @@
+{
+    "cucumberautocomplete.steps": [
+        "Step-definition/*.ts"
+    ],
+    "cucumberautocomplete.syncfeatures": "/Features/*.feature",
+    "cucumberautocomplete.strictGherkinCompletion": true,
+    "git.ignoreLimitWarning": true
+}

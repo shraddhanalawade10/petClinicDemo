@@ -1,0 +1,46 @@
+[2021-03-17T11:17:23.074] [DEBUG] default - Add Button is disabled :-( 
+[2021-03-17T11:17:25.323] [DEBUG] default - Firstname is greater than 2 characters :- Pooja1
+[2021-03-17T11:17:25.684] [DEBUG] default - Lastname is greater than 2 characters :- Pawar
+[2021-03-17T11:17:25.951] [DEBUG] default - Address is greater than 2 characters :- 10 street
+[2021-03-17T11:17:26.126] [DEBUG] default - City is greater than 2 characters :- Mumbai
+[2021-03-17T11:17:26.303] [DEBUG] default - Telephone Number is of 10 digits :- 9874510445
+[2021-03-17T11:17:26.351] [DEBUG] default - Add Button is enabled now :-) 
+[2021-03-17T11:17:27.247] [DEBUG] default - Save New Owner button verification :- Add Owner
+[2021-03-17T11:17:30.300] [DEBUG] default - NewOwnersEntryDetails: Pooja1 Pawar 10 street Mumbai 9874510445
+[2021-03-17T11:17:33.095] [DEBUG] default - Current page Title :-Owners
+[2021-03-17T11:17:36.606] [DEBUG] default - Current page title(Pet Types) :- Pet Types
+[2021-03-17T11:17:36.698] [DEBUG] default - Edit button is enabled
+[2021-03-17T11:17:36.796] [DEBUG] default - Delete button is enabled
+[2021-03-17T11:17:36.930] [DEBUG] default - Add button is enabled
+[2021-03-17T11:17:37.012] [DEBUG] default - Home button is enabled
+[2021-03-17T11:17:45.038] [DEBUG] default - New PetType added successfully..!!!
+[2021-03-17T11:17:45.030] [DEBUG] default - Number of PetTypes present in the list are - 7
+[2021-03-17T11:17:52.191] [INFO] default - Edit PetType Page Verify - 
+[2021-03-17T11:17:52.161] [DEBUG] default - Current page title(Edit Pet Types) :- Edit Pet Type
+[2021-03-17T11:17:52.551] [DEBUG] default - Updated Pet Type name is :- Fish
+[2021-03-17T11:17:58.511] [DEBUG] default - Click on PetType tab
+[2021-03-17T11:17:58.541] [DEBUG] default - Add Button is enable :-) 
+[2021-03-17T11:17:58.593] [DEBUG] default - Home Button is enable :-) 
+[2021-03-17T11:18:01.605] [INFO] default - PetType present after editing PetType::
+[2021-03-17T11:18:01.634] [DEBUG] default - Number of PetTypes present in the list are - 7
+[2021-03-17T11:18:01.639] [DEBUG] default - PetType edited Successfully
+[2021-03-17T11:18:08.976] [DEBUG] default - Deleted PetType Name is :- Fish
+[2021-03-17T11:18:09.083] [DEBUG] default - Delete PetType
+[2021-03-17T11:18:09.087] [INFO] default - PetType present after deleting PetType::
+[2021-03-17T11:18:09.205] [DEBUG] default - Number of PetTypes present in the list are - 7
+[2021-03-17T11:18:09.208] [DEBUG] default - PetType deleted Successfully
+[2021-03-17T11:18:15.325] [DEBUG] default - Home button is clickable :-) 
+[2021-03-17T11:18:15.335] [DEBUG] default - Go to the Home Page
+[2021-03-17T11:18:20.919] [DEBUG] default - Firstname is greater than 2 character :: Smita
+[2021-03-17T11:18:21.108] [DEBUG] default - Lastname is greater than 2 character :: Khatavkar
+[2021-03-17T11:18:22.357] [DEBUG] default - List of Specialist Types - 
+[2021-03-17T11:18:22.442] [DEBUG] default - radiology
+[2021-03-17T11:18:22.578] [DEBUG] default - surgery
+[2021-03-17T11:18:22.675] [DEBUG] default - Radiology
+[2021-03-17T11:18:22.775] [DEBUG] default - Radiology
+[2021-03-17T11:18:22.882] [DEBUG] default - Neurologists
+[2021-03-17T11:18:22.932] [DEBUG] default - Enter Fisrt ,last name ,type
+[2021-03-17T11:18:23.231] [DEBUG] default - Save Veterinarian
+[2021-03-17T11:18:23.542] [DEBUG] default - Veterinarian page verification :- Veterinarians
+[2021-03-17T11:18:24.225] [DEBUG] default - Added Veterinarians details verification :- Smita Khatavkar Radiology
+[2021-03-17T11:18:28.503] [DEBUG] default - Click on Back Button verification :- < Back
