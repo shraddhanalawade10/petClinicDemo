@@ -2,13 +2,6 @@ import { Config, browser } from "protractor";
 
 let reporter = require('cucumber-html-reporter');
 
-let today = new Date();
-let dd = String(today.getDate()).padStart(2, '0');
-let mm = String(today.getMonth() + 1).padStart(2, '0');
-let yyyy = today.getFullYear();
-
-let ReportDate = yyyy + '-' + mm + '-' + dd;
-
 exports.config = {
 
     allScriptsTimeout: 100000,
@@ -21,14 +14,15 @@ exports.config = {
     seleniumAddress: 'http://localhost:4444/wd/hub',
 
     capabilities: {
-        browserName: 'chrome',
+        /*browserName: 'chrome',
         chromeOptions: { 'args': ['disable-infobars'] },
-        acceptSslCerts: true
-        /*browserName: 'firefox',
+        acceptSslCerts: true*/
+        browserName: 'firefox',
         'moz:firefoxOptions': {
             // args: ["--safe-mode"],
-            args: ["--headless"],*/
+            args: ["--headless"],
     },
+},
 
     specs: [
         '../Features/*.feature'
@@ -80,20 +74,3 @@ exports.config = {
         reporter.generate(options);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
