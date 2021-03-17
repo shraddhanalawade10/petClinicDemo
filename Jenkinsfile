@@ -12,8 +12,8 @@ pipeline {
 				//sh 'rm -f /var/lib/jenkins/workspace/FEI_PetClinic_Protractorui/`date +"%Y-%m-%d"`.html'
 				sh """
 					JOB_NAME=${env.JOB_BASE_NAME}
-					rm -f /var/lib/jenkins/workspace/\$JOB_NAME/cucumber_report.html
-					cp /app/cucumber_report.html /var/lib/jenkins/workspace/\$JOB_NAME
+					rm -f /var/lib/jenkins/workspace/\$JOB_NAME/cucumberreport.html
+					cp /app/cucumberreport.html /var/lib/jenkins/workspace/\$JOB_NAME
 				   """
 				//sh 'cp /app/Reports/`date +"%Y-%m-%d"`.html /var/lib/jenkins/workspace/${env.BUILD_TAG}'
 				
